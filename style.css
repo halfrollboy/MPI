@@ -75,9 +75,9 @@
     cursor: pointer;
 }
 
-.grey-btn{
+/* .grey-btn{
     background-color: grey;
-}
+} */
 
 .palete{
     height: 100%;
@@ -105,17 +105,36 @@
     padding-left: 10px;
 }
 
+.class-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+    max-height: 420px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    overflow: scroll;
+}
+
 .name-user{
     color: black;
     font-weight: 600;
 }
 
 .li-item{
-    padding: 20px;
-    margin: 20px;
-    color:rgb(136, 136, 136);
+    color:rgb(56, 56, 56);
+    padding: 5px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(231, 230, 230);
 }
 
-.li-elem:hover{
-    background-color: rgb(179, 179, 179);
+.li-item:hover{
+    background-color: rgb(231, 230, 230);
+    border-radius: 8px;
+    color: black;
+}
+
+.textarea-style{
+    width: 100%;
+    border: 1px solid grey;
 }
