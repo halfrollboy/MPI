@@ -92,6 +92,7 @@
     display: block;
     align-self: stretch;
     flex-grow: 1;
+    height: 100%;
     border-right: 2px solid wheat;
 }
 
@@ -126,6 +127,7 @@
     padding: 5px;
     padding-bottom: 15px;
     border-bottom: 1px solid rgb(231, 230, 230);
+    cursor: pointer;
 }
 
 .li-item:hover{
@@ -137,4 +139,12 @@
 .textarea-style{
     width: 100%;
     border: 1px solid grey;
+}
+
+.name-page-view-order{
+    padding: 20px;
+}
+
+.content-view-page{
+    padding: 30px;
 }
