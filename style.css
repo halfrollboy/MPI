@@ -19,9 +19,14 @@
 }
 
 /* Подложка для контента без бара ГОРИЗОНТАЛЬНАЯ*/
-.main-content-horizonta{
+.main-content-horizontal{
     display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
     height: 100%;
+    width: 100%;
+    overflow: scroll;
+    overflow:transparent;
 }
 
 /* Плашка логина под поля ввода*/
@@ -89,12 +94,9 @@
 }
 
 .second-palete{
-    display: block;
     align-self: stretch;
     flex-grow: 1;
-    height: 100%;
-    width: 100%;
-    border-right: 2px solid wheat;
+    border-right: 2px solid rgb(199, 199, 199);
 }
 
 .row-elem{
@@ -148,4 +150,17 @@
 
 .content-view-page{
     padding: 30px;
+}
+
+.page-view-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.prob{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
 }
